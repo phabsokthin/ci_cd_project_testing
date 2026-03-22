@@ -51,7 +51,7 @@ export default function ProductForm({
   };
 
 
-
+  
   /**
    * Handle form submission
    */
@@ -66,7 +66,8 @@ export default function ProductForm({
     } else {
       // Create new product
       console.log("Create product:", productData);
-      useProductStore.getState().createProduct(productData
+      //update forom
+      useProductStore.getState().createProduct(productData);
     }
 
     onClose(); // Close the form after submission
@@ -95,7 +96,7 @@ export default function ProductForm({
           </div>
 
           <div>
-            <label className="block text-sm font-medium">Pric22222</label>
+            <label className="block text-sm font-medium">Price</label>
             <input
               type="number"
               name="price"
