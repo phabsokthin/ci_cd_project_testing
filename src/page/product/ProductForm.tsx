@@ -77,7 +77,7 @@ export default function ProductForm({
           style={{ backgroundColor: "snow", padding: "20px" }}
         >
           <div>
-            <label className="block text-sm font-medium">Title</label>
+            <label className="block text-sm font-medium">Title1</label>
             <input
               type="text"
               name="title"
