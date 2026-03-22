@@ -66,7 +66,7 @@ export default function ProductForm({
     } else {
       // Create new product
       console.log("Create product:", productData);
-      useProductStore.getState().createProduct(productData);
+      useProductStore.getState().createProduct(productData
     }
 
     onClose(); // Close the form after submission
