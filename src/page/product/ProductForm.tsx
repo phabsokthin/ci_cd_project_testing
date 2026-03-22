@@ -70,7 +70,6 @@ export default function ProductForm({
       //update forom
       useProductStore.getState().createProduct(productData);
     }
-
     onClose(); // Close the form after submission
   };
 
@@ -85,7 +84,7 @@ export default function ProductForm({
           style={{ backgroundColor: "snow", padding: "20px" }}
         >
           <div>
-            <label className="block text-sm font-medium">Title1 234</label>
+            <label className="block text-sm font-medium">Title1 122234</label>
             <input
               type="text"
               name="title"
