@@ -59,6 +59,7 @@ export default function ProductForm({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
+
     if (productData.id) {
       // Update existing product logic can be added here
       console.log("Update product:", productData);
